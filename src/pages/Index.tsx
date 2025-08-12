@@ -1,6 +1,6 @@
 import { SEO } from "@/components/SEO";
-import heroImg from "@/assets/hero-praxis.jpg";
-import ambient from "@/assets/ambient-nature.jpg";
+import heroImg from "@/assets/site-hero.jpg";
+import ambient from "@/assets/site-portrait.jpg";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
