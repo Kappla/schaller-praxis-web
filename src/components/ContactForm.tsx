@@ -12,7 +12,7 @@ export default function ContactForm() {
     const data = new FormData(e.currentTarget);
     const name = (data.get("name") as string) || "";
     const phone = (data.get("phone") as string) || "";
-    const subject = "Kontaktanfrage via Webseite";
+    const subject = "Webseite-Anfrage";
     const message = (data.get("message") as string) || "";
 
     const plainBody = `Name: ${name}\r\nTelefon: ${phone}\r\n\r\nNachricht:\r\n${message}`;
