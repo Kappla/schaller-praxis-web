@@ -77,28 +77,28 @@ const Index = () => {
                 <AccordionTrigger className="text-left">
                   <div>
                     <span className="block text-xl font-semibold">Therapie</span>
-                    <span className="block text-sm text-muted-foreground">Kurzzeit-, analytische, akut- und tiefenpsychologisch fundierte Verfahren.</span>
+                    <span className="block text-sm text-muted-foreground">Akut-, Kurzzeit-, tiefenpsychologisch fundierte und analytische Verfahren.</span>
                   </div>
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="mt-2 space-y-4 text-muted-foreground leading-relaxed">
                     <div>
-                      <h4 className="font-medium">Kurzzeittherapie</h4>
-                      <p>Die Kurzzeittherapie umfasst bis zu 24 Sitzungen und ist auf ein viertel bis dreiviertel Jahr ausgerichtet. Sie dient vor allem der Bewältigung akuter Krisen und umgrenzter Belastungen oder der Klärung, ob eine längerfristige, intensivere Psychotherapie sinnvoll ist.</p>
-                    </div>
-                    <div>
-                      <h4 className="font-medium">Analytische Psychotherapie</h4>
-                      <p>Die analytische Psychotherapie ist längerfristig angelegt (2–4 Jahre) und findet 2–3 Mal pro Woche statt. Oft liegt die Patientin/der Patient auf der Couch, um die Selbstreflexion zu vertiefen, alternativ kann die Therapie auch modifiziert im Sitzen erfolgen.</p>
-                      <p>Die hohe Frequenz ermöglicht eine intensive Auseinandersetzung mit verschiedenen innerseelischen Konfliktbereichen, tieferliegenden Persönlichkeitsstrukturen und Beziehungsmustern. Die therapeutische Beziehung dient als Spiegel und Erfahrungsraum, um alte Muster zu erkennen und neue Wege zu entwickeln.</p>
-                    </div>
-                    <div>
                       <h4 className="font-medium">Akuttherapie</h4>
                       <p>Die Akuttherapie (12 Sitzungen) wurde als Sonderform eingeführt, um eine schnelle Behandlung zu ermöglichen und einer Chronifizierung entgegenzuwirken.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-medium">Kurzzeittherapie</h4>
+                      <p>Die Kurzzeittherapie umfasst bis zu 24 Sitzungen und ist auf ein viertel bis dreiviertel Jahr ausgerichtet. Sie dient vor allem der Bewältigung akuter Krisen und umgrenzter Belastungen oder der Klärung, ob eine längerfristige, intensivere Psychotherapie sinnvoll ist.</p>
                     </div>
                     <div>
                       <h4 className="font-medium">Tiefenpsychologisch fundierte Psychotherapie</h4>
                       <p>Die Tiefenpsychologisch fundierte Psychotherapie findet meist 1–2 Mal pro Woche im Sitzen statt und dauert je nach Bedarf zwischen 1–2 Jahren.</p>
                       <p>Im Unterschied zur Analytischen Psychotherapie ist sie zeitlich begrenzter. Ziel ist es, innere Spannungen und wiederkehrende Muster zu verstehen und gezielt zu bearbeiten – besonders, wenn sie aktuelle Schwierigkeiten verursachen. Dabei steht nicht die tiefgreifende Veränderung der Persönlichkeit im Fokus, sondern die Lösung konkreter belastender Themen.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-medium">Analytische Psychotherapie</h4>
+                      <p>Die analytische Psychotherapie ist längerfristig angelegt (2–4 Jahre) und findet 2–3 Mal pro Woche statt. Oft liegt die Patientin/der Patient auf der Couch, um die Selbstreflexion zu vertiefen, alternativ kann die Therapie auch modifiziert im Sitzen erfolgen.</p>
+                      <p>Die hohe Frequenz ermöglicht eine intensive Auseinandersetzung mit verschiedenen innerseelischen Konfliktbereichen, tieferliegenden Persönlichkeitsstrukturen und Beziehungsmustern. Die therapeutische Beziehung dient als Spiegel und Erfahrungsraum, um alte Muster zu erkennen und neue Wege zu entwickeln.</p>
                     </div>
                   </div>
                 </AccordionContent>
