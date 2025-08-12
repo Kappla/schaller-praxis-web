@@ -1,0 +1,46 @@
+import { Link, NavLink, useLocation } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+
+const navItems = [
+  { to: "/", label: "Start" },
+  { to: "/leistungen", label: "Leistungen" },
+  { to: "/ueber-mich", label: "Über mich" },
+  { to: "/praxis", label: "Praxis & Anfahrt" },
+  { to: "/kontakt", label: "Kontakt" },
+];
+
+export default function Navbar() {
+  const { pathname } = useLocation();
+  return (
+    <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <nav className="container flex h-16 items-center justify-between">
+        <Link to="/" className="flex items-center gap-2" aria-label="Praxis Schaller Startseite">
+          <div className="h-8 w-8 rounded-md bg-primary/10" />
+          <span className="text-lg font-semibold">Praxis Schaller</span>
+        </Link>
+        <div className="hidden gap-6 md:flex">
+          {navItems.map((item) => (
+            <NavLink
+              key={item.to}
+              to={item.to}
+              className={({ isActive }) =>
+                cn(
+                  "text-sm transition-colors hover:text-foreground/80",
+                  isActive || pathname === item.to ? "text-foreground" : "text-foreground/60"
+                )
+              }
+            >
+              {item.label}
+            </NavLink>
+          ))}
+        </div>
+        <div className="flex items-center gap-2">
+          <Button asChild className="hidden md:inline-flex">
+            <Link to="/kontakt">Termin anfragen</Link>
+          </Button>
+        </div>
+      </nav>
+    </header>
+  );
+}
