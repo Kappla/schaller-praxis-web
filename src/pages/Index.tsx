@@ -159,28 +159,6 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="praxis" className="border-y bg-secondary/40 scroll-mt-24 md:scroll-mt-28">
-        <div className="container py-14 md:py-20">
-          <div>
-            <h2 className="mb-4 text-3xl font-semibold md:text-4xl">Praxis & Anfahrt</h2>
-            <p className="text-muted-foreground leading-relaxed">
-              Die Praxis liegt im Münchner Westend/Schwanthalerhöhe und ist am besten mit öffentlichen Verkehrsmitteln zu erreichen. Die Räumlichkeiten befinden sich im Hochparterre und sind nicht barrierefrei zugänglich.
-            </p>
-            <div className="mt-6 overflow-hidden rounded-lg border">
-              <iframe
-                title="Karte: Schrenkstr. 7, 80339 München"
-                src="https://www.google.com/maps?q=Schrenkstr.+7,+80339+M%C3%BCnchen&hl=de&z=16&output=embed"
-                className="h-[380px] w-full"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                allowFullScreen
-              />
-            </div>
-            <p className="mt-2 text-sm text-foreground">Adresse: Schrenkstr. 7, 80339 München</p>
-          </div>
-        </div>
-      </section>
-
       <section id="ueber-mich" className="scroll-mt-24 md:scroll-mt-28">
           <div className="container grid items-start gap-8 py-14 md:grid-cols-2 md:py-20">
             <div>
@@ -207,6 +185,28 @@ const Index = () => {
           </div>
           <div className="overflow-hidden rounded-lg border">
             <img src={ambient} alt="Portrait von Johanna Schaller, Psychotherapeutin in München" className="h-full w-full object-cover" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <section id="praxis" className="border-y bg-secondary/40 scroll-mt-24 md:scroll-mt-28">
+        <div className="container py-14 md:py-20">
+          <div>
+            <h2 className="mb-4 text-3xl font-semibold md:text-4xl">Praxis & Anfahrt</h2>
+            <p className="text-muted-foreground leading-relaxed">
+              Die Praxis liegt im Münchner Westend/Schwanthalerhöhe und ist am besten mit öffentlichen Verkehrsmitteln zu erreichen. Die Räumlichkeiten befinden sich im Hochparterre und sind nicht barrierefrei zugänglich.
+            </p>
+            <div className="mt-6 overflow-hidden rounded-lg border">
+              <iframe
+                title="Karte: Schrenkstr. 7, 80339 München"
+                src="https://www.google.com/maps?q=Schrenkstr.+7,+80339+M%C3%BCnchen&hl=de&z=16&output=embed"
+                className="h-[380px] w-full"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
+            </div>
+            <p className="mt-2 text-sm text-foreground">Adresse: Schrenkstr. 7, 80339 München</p>
           </div>
         </div>
       </section>
