@@ -15,27 +15,40 @@ const Index = () => {
         path="/"
       />
 
-      <section id="start" className="ambient-gradient scroll-mt-24 md:scroll-mt-28">
-        <div className="container grid gap-8 py-14 md:grid-cols-2 md:py-20">
-          <div className="flex flex-col justify-center">
-            <h1 className="mb-2 text-4xl font-bold tracking-tight md:text-5xl">Praxis für Psychotherapie München – Johanna Schaller</h1>
-            <p className="text-sm text-muted-foreground">Psychoanalyse und Tiefenpsychologisch fundierte Psychotherapie</p>
-            <p className="mt-2 text-sm text-muted-foreground">Aktuell keine Neuaufnahmen möglich – ausschließlich Sprechstunden!</p>
-            <p className="mb-6 text-lg text-muted-foreground leading-relaxed md:text-xl">
-              In meiner Praxis im Münchner Westend/Schwanthalerhöhe biete ich psychoanalytische und tiefenpsychologisch fundierte Psychotherapie für privat Versicherte und Selbstzahler*innen oder für Gesetzlich Versicherte im Kostenerstattungsverfahren an. Als approbierte Psychologische Psychotherapeutin behandle ich Erwachsene jeden Alters mit verschiedenen psychischen Beschwerden. Gerne begleite ich Sie in belastenden Lebensphasen und unterstütze Sie dabei, einen passenden Weg aus schwierigen Situationen zu finden. Im Folgenden finde Sie wesentliche Informationen zum Therapieangebot, dem Ablauf und zu meiner Person.
-            </p>
-            <div className="flex gap-3">
-              <Button asChild>
-                <Link to="/#kontakt">Termin anfragen</Link>
-              </Button>
-              <Button asChild variant="secondary">
-                <Link to="/#leistungen">Leistungen</Link>
-              </Button>
+      <section id="start" className="relative isolate scroll-mt-24 md:scroll-mt-28">
+        <div className="relative min-h-[60vh]">
+          <img src={heroImg} alt="Heller, ruhiger Praxisraum für Psychotherapie" className="absolute inset-0 h-full w-full object-cover" loading="eager" />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/60 to-background/20" aria-hidden="true" />
+          <div className="relative z-10 flex min-h-[60vh] items-center">
+            <div className="container py-16 text-center md:py-24">
+              <h1 className="mx-auto max-w-3xl text-4xl font-bold tracking-tight md:text-6xl">
+                <span className="block">Praxis für Psychotherapie</span>
+                <span className="block">München</span>
+                <span className="block">Johanna Schaller</span>
+              </h1>
+              <p className="mt-3 text-sm text-muted-foreground">Psychoanalyse und Tiefenpsychologisch fundierte Psychotherapie</p>
+              <div className="mt-6 flex justify-center gap-3">
+                <Button asChild size="lg">
+                  <Link to="/#kontakt">Einen Termin vereinbaren</Link>
+                </Button>
+                <Button asChild variant="secondary" size="lg">
+                  <Link to="/#leistungen">Leistungen</Link>
+                </Button>
+              </div>
+              <p className="mx-auto mt-4 inline-block rounded-full border bg-secondary/60 px-4 py-1 text-xs text-foreground/80">
+                Aktuell keine Neuaufnahmen möglich – ausschließlich Sprechstunden!
+              </p>
             </div>
           </div>
-          <div className="overflow-hidden rounded-lg border bg-card">
-            <img src={heroImg} alt="Heller, ruhiger Praxisraum für Psychotherapie" className="h-full w-full object-cover" loading="eager" />
-          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="welcome-title" className="border-t bg-secondary/40">
+        <div className="container py-14 md:py-20">
+          <h2 id="welcome-title" className="mb-6 text-3xl font-semibold md:text-4xl">Herzlich Willkommen!</h2>
+          <p className="max-w-3xl text-muted-foreground leading-relaxed">
+            In meiner Praxis im Münchner Westend/Schwanthalerhöhe biete ich psychoanalytische und tiefenpsychologisch fundierte Psychotherapie für privat Versicherte und Selbstzahler*innen oder für Gesetzlich Versicherte im Kostenerstattungsverfahren an. Als approbierte Psychologische Psychotherapeutin behandle ich Erwachsene jeden Alters mit verschiedenen psychischen Beschwerden. Gerne begleite ich Sie in belastenden Lebensphasen und unterstütze Sie dabei, einen passenden Weg aus schwierigen Situationen zu finden. Im Folgenden finde Sie wesentliche Informationen zum Therapieangebot, dem Ablauf und zu meiner Person.
+          </p>
         </div>
       </section>
 
