@@ -136,22 +136,20 @@ const Index = () => {
       </section>
 
       <section id="praxis" className="border-y bg-secondary/40 scroll-mt-24 md:scroll-mt-28">
-        <div className="container grid items-center gap-8 py-14 md:grid-cols-2 md:py-20">
+        <div className="container py-14 md:py-20">
           <div>
             <h2 className="mb-4 text-3xl font-semibold md:text-4xl">Praxis & Anfahrt</h2>
             <p className="text-muted-foreground leading-relaxed">
               Die Praxis liegt im Münchner Westend/Schwanthalerhöhe und ist am besten mit öffentlichen Verkehrsmitteln zu erreichen. Die Räumlichkeiten befinden sich im Hochparterre und sind nicht barrierefrei zugänglich.
             </p>
           </div>
-          <div className="overflow-hidden rounded-lg border">
-            <img src={ambient} alt="Beruhigender, natürlicher Hintergrund in Salbei- und Türkistönen" className="h-full w-full object-cover" loading="lazy" />
-          </div>
         </div>
       </section>
 
       <section id="ueber-mich" className="scroll-mt-24 md:scroll-mt-28">
-        <div className="container py-14 md:py-20">
-          <h2 className="mb-6 text-3xl font-semibold md:text-4xl">Über mich</h2>
+          <div className="container grid items-start gap-8 py-14 md:grid-cols-2 md:py-20">
+            <div>
+              <h2 className="mb-6 text-3xl font-semibold md:text-4xl">Über mich</h2>
           <CollapsibleText collapsedHeight={16} moreLabel="alles anzeigen">
             <h3 className="text-xl font-semibold">Qualifikation</h3>
             <ul className="mt-2 list-disc pl-5 text-muted-foreground">
@@ -172,7 +170,11 @@ const Index = () => {
               <li>Deutsche Gesellschaft für Psychoanalyse, Psychotherapie, Psychosomatik und Tiefenpsychologie (DGPT) e.V. (außerordentliches Mitglied)</li>
               <li>Psychotherapeutenkammer Bayern (PTK)</li>
             </ul>
-          </CollapsibleText>
+            </CollapsibleText>
+          </div>
+          <div className="overflow-hidden rounded-lg border">
+            <img src={ambient} alt="Portrait von Johanna Schaller, Psychotherapeutin in München" className="h-full w-full object-cover" loading="lazy" />
+          </div>
         </div>
       </section>
 
