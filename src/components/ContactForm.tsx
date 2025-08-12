@@ -11,12 +11,11 @@ export default function ContactForm() {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
     const name = (data.get("name") as string) || "";
-    const email = (data.get("email") as string) || "";
     const phone = (data.get("phone") as string) || "";
-    const subject = (data.get("subject") as string) || "Kontaktanfrage über Website";
+    const subject = (data.get("subject") as string) || "Kontaktanfrage via Webseite";
     const message = (data.get("message") as string) || "";
 
-    const body = `Name: ${name}%0D%0AE-Mail: ${email}%0D%0ATelefon: ${phone}%0D%0A%0D%0ANachricht:%0D%0A${encodeURIComponent(message)}`;
+    const body = `Name: ${name}%0D%0ATelefon: ${phone}%0D%0A%0D%0ANachricht:%0D%0A${encodeURIComponent(message)}`;
     const mailto = `mailto:schaller-praxis@t-online.de?subject=${encodeURIComponent(subject)}&body=${body}`;
     window.location.href = mailto;
   };
@@ -29,16 +28,12 @@ export default function ContactForm() {
           <Input id="name" name="name" required aria-required="true" />
         </div>
         <div>
-          <label htmlFor="email" className="mb-1 block text-sm font-medium">E-Mail</label>
-          <Input id="email" name="email" type="email" required aria-required="true" />
-        </div>
-        <div>
           <label htmlFor="phone" className="mb-1 block text-sm font-medium">Telefon (optional)</label>
           <Input id="phone" name="phone" type="tel" />
         </div>
         <div>
           <label htmlFor="subject" className="mb-1 block text-sm font-medium">Betreff</label>
-          <Input id="subject" name="subject" defaultValue="Kontaktanfrage" />
+          <Input id="subject" name="subject" defaultValue="Kontaktanfrage via Webseite" />
         </div>
       </div>
       <div>
@@ -59,8 +54,8 @@ export default function ContactForm() {
           Ich habe die Datenschutzhinweise gelesen und bin mit der Verarbeitung meiner Angaben zur Kontaktaufnahme einverstanden.
         </label>
       </div>
-      <Button type="submit" disabled={!accepted}>Nachricht senden</Button>
-      <div className="text-xs text-muted-foreground">Hinweis: Ihr E‑Mail‑Programm öffnet sich zum Versand. Für einen serverseitigen Versand können wir dies gern nachträglich einrichten.</div>
+      <Button type="submit" disabled={!accepted}>Nachricht via Email-Programm senden</Button>
+      <div className="text-xs text-muted-foreground">Hinweis: Ihr E‑Mail‑Programm öffnet sich zum Versand.</div>
     </form>
   );
 }
