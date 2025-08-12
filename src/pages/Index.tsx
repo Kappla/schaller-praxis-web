@@ -26,7 +26,7 @@ const Index = () => {
                 <span className="block">München</span>
                 <span className="block">Johanna Schaller</span>
               </h1>
-              <p className="mt-3 text-sm text-muted-foreground">Psychoanalyse und Tiefenpsychologisch fundierte Psychotherapie</p>
+              <p className="mt-3 text-sm text-foreground">Psychoanalyse und Tiefenpsychologisch fundierte Psychotherapie</p>
               <div className="mt-6 flex justify-center gap-3">
                 <Button asChild size="lg">
                   <Link to="/#kontakt">Einen Termin vereinbaren</Link>
