@@ -12,6 +12,7 @@ const Index = () => {
       <section id="start" className="relative isolate scroll-mt-24 md:scroll-mt-28">
         <div className="relative min-h-[60vh]">
           <img src={heroImg} alt="Heller, ruhiger Praxisraum für Psychotherapie" className="absolute inset-0 h-full w-full object-cover" loading="eager" />
+          <div className="absolute inset-0 bg-foreground/20 md:bg-foreground/25 mix-blend-multiply" aria-hidden="true" />
           <div className="absolute inset-0 bg-gradient-to-b from-background/60 to-background/20" aria-hidden="true" />
           <div className="relative z-10 flex min-h-[60vh] items-center">
             <div className="container py-16 text-center md:py-24">
