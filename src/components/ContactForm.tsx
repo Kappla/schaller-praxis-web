@@ -15,8 +15,9 @@ export default function ContactForm() {
     const subject = "Kontaktanfrage via Webseite";
     const message = (data.get("message") as string) || "";
 
-    const body = `Name: ${name}%0D%0ATelefon: ${phone}%0D%0A%0D%0ANachricht:%0D%0A${encodeURIComponent(message)}`;
-    const mailto = `mailto:schaller-praxis@t-online.de?subject=${encodeURIComponent(subject)}&body=${body}`;
+    const plainBody = `Name: ${name}\r\nTelefon: ${phone}\r\n\r\nNachricht:\r\n${message}`;
+    const params = new URLSearchParams({ subject, body: plainBody });
+    const mailto = `mailto:schaller-praxis@t-online.de?${params.toString()}`;
     window.location.href = mailto;
   };
 
