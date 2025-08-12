@@ -57,7 +57,7 @@ const Index = () => {
                 <AccordionTrigger className="text-left">
                   <div>
                     <span className="block text-xl font-semibold">Behandlung bei</span>
-                    <span className="block text-sm text-muted-foreground">Überblick über häufige Beschwerdebilder.</span>
+                    <span className="block text-sm text-muted-foreground">Essstörung, Persönlichkeitsstörung, Angststörung, Körperbezogene Störung, Depression, Krisen und Zwangsstörung.</span>
                   </div>
                 </AccordionTrigger>
                 <AccordionContent>
