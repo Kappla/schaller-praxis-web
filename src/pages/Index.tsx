@@ -142,6 +142,17 @@ const Index = () => {
             <p className="text-muted-foreground leading-relaxed">
               Die Praxis liegt im Münchner Westend/Schwanthalerhöhe und ist am besten mit öffentlichen Verkehrsmitteln zu erreichen. Die Räumlichkeiten befinden sich im Hochparterre und sind nicht barrierefrei zugänglich.
             </p>
+            <div className="mt-6 overflow-hidden rounded-lg border">
+              <iframe
+                title="Karte: Schrenkstr. 7, 80339 München"
+                src="https://www.google.com/maps?q=Schrenkstr.+7,+80339+M%C3%BCnchen&hl=de&z=16&output=embed"
+                className="h-[380px] w-full"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
+            </div>
+            <p className="mt-2 text-sm text-foreground">Adresse: Schrenkstr. 7, 80339 München</p>
           </div>
         </div>
       </section>
