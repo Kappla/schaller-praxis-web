@@ -2,18 +2,12 @@ import { SEO } from "@/components/SEO";
 import heroImg from "@/assets/site-hero.jpg";
 import ambient from "@/assets/site-portrait.jpg";
 import { Button } from "@/components/ui/button";
-
 import { Link } from "react-router-dom";
 import ContactForm from "@/components/ContactForm";
 import CollapsibleText from "@/components/CollapsibleText";
 const Index = () => {
-  return (
-    <main>
-      <SEO
-        title="Praxis für Psychotherapie Schaller | Einfühlsame Unterstützung"
-        description="Psychotherapeutische Praxis Schaller – Hilfe bei Angst, Depression, Stress und Lebenskrisen. Vertraulich, wirksam, auf Augenhöhe."
-        path="/"
-      />
+  return <main>
+      <SEO title="Praxis für Psychotherapie Schaller | Einfühlsame Unterstützung" description="Psychotherapeutische Praxis Schaller – Hilfe bei Angst, Depression, Stress und Lebenskrisen. Vertraulich, wirksam, auf Augenhöhe." path="/" />
 
       <section id="start" className="relative isolate scroll-mt-24 md:scroll-mt-28">
         <div className="relative min-h-[60vh]">
@@ -22,11 +16,11 @@ const Index = () => {
           <div className="relative z-10 flex min-h-[60vh] items-center">
             <div className="container py-16 text-center md:py-24">
               <h1 className="mx-auto max-w-3xl text-4xl font-bold tracking-tight md:text-6xl">
-                <span className="block">Praxis für Psychotherapie</span>
-                <span className="block">München</span>
-                <span className="block">Johanna Schaller</span>
+                <span className="block text-slate-50">Praxis für Psychotherapie</span>
+                <span className="block text-slate-50">München</span>
+                <span className="block text-slate-50">Johanna Schaller</span>
               </h1>
-              <p className="mt-3 text-sm text-foreground">Psychoanalyse und Tiefenpsychologisch fundierte Psychotherapie</p>
+              <p className="mt-3 text-sm text-slate-50">Psychoanalyse und Tiefenpsychologisch fundierte Psychotherapie</p>
               <div className="mt-6 flex justify-center gap-3">
                 <Button asChild size="lg">
                   <Link to="/#kontakt">Einen Termin vereinbaren</Link>
@@ -215,8 +209,6 @@ const Index = () => {
           </Button>
         </div>
       </section>
-    </main>
-  );
+    </main>;
 };
-
 export default Index;
