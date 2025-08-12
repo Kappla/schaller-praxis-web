@@ -8,7 +8,7 @@ import CollapsibleText from "@/components/CollapsibleText";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 const Index = () => {
   return <main>
-      <SEO title="Praxis für Psychotherapie Schaller | Einfühlsame Unterstützung" description="Psychotherapeutische Praxis Schaller – Hilfe bei Angst, Depression, Stress und Lebenskrisen. Vertraulich, wirksam, auf Augenhöhe." path="/" />
+      <SEO title="Praxis für Psychotherapie Schaller | Einfühlsame Unterstützung" description="Psychotherapeutische Schaller Psychotherapie – Hilfe bei Angst, Depression, Stress und Lebenskrisen. Vertraulich, wirksam, auf Augenhöhe." path="/" />
 
       <section id="start" className="relative isolate scroll-mt-24 md:scroll-mt-28">
         <div className="relative min-h-[60vh]">

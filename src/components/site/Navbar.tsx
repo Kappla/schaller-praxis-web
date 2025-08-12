@@ -29,9 +29,9 @@ export default function Navbar() {
   } = useLocation();
   return <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container flex h-16 items-center justify-between">
-        <Link to="/" className="flex items-center gap-2" aria-label="Praxis Schaller Startseite">
+        <Link to="/" className="flex items-center gap-2" aria-label="Schaller Psychotherapie Startseite">
           
-          <span className="text-lg font-semibold">Praxis Schaller</span>
+          <span className="text-lg font-semibold">Schaller Psychotherapie</span>
         </Link>
         <div className="hidden gap-6 md:flex">
           {navItems.map(item => {
