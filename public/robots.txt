@@ -12,3 +12,4 @@ Allow: /
 
 User-agent: *
 Allow: /
+Sitemap: https://www.schaller-psychotherapie.de/sitemap.xml
