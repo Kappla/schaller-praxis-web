@@ -42,7 +42,7 @@ const Index = () => {
       <section aria-labelledby="welcome-title" className="border-t bg-secondary/40">
         <div className="container py-14 md:py-20">
           <h2 id="welcome-title" className="mb-6 text-3xl font-semibold md:text-4xl">Herzlich Willkommen!</h2>
-          <p className="max-w-3xl text-muted-foreground leading-relaxed">
+          <p className="text-muted-foreground leading-relaxed">
             In meiner Praxis im Münchner Westend/Schwanthalerhöhe biete ich psychoanalytische und tiefenpsychologisch fundierte Psychotherapie für privat Versicherte und Selbstzahler*innen oder für Gesetzlich Versicherte im Kostenerstattungsverfahren an. Als approbierte Psychologische Psychotherapeutin behandle ich Erwachsene jeden Alters mit verschiedenen psychischen Beschwerden. Gerne begleite ich Sie in belastenden Lebensphasen und unterstütze Sie dabei, einen passenden Weg aus schwierigen Situationen zu finden. Im Folgenden finde Sie wesentliche Informationen zum Therapieangebot, dem Ablauf und zu meiner Person.
           </p>
         </div>
