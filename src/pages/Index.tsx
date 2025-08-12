@@ -234,17 +234,6 @@ const Index = () => {
         </div>
       </section>
 
-      <section>
-        <div className="container py-14 text-center md:py-20">
-          <h2 className="mb-3 text-3xl font-semibold md:text-4xl">Bereit für den ersten Schritt?</h2>
-          <p className="mx-auto mb-6 max-w-2xl text-muted-foreground">
-            Schreiben Sie mir Ihr Anliegen und Ihre Terminwünsche. Ich melde mich zeitnah bei Ihnen zurück.
-          </p>
-          <Button asChild size="lg">
-            <Link to="/#kontakt">Kontakt aufnehmen</Link>
-          </Button>
-        </div>
-      </section>
     </main>;
 };
 export default Index;
