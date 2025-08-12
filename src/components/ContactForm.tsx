@@ -2,6 +2,7 @@ import { FormEvent, useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+import { toast } from "sonner";
 
 export default function ContactForm() {
   const [accepted, setAccepted] = useState(false);
