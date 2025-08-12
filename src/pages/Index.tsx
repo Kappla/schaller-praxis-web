@@ -4,7 +4,8 @@ import ambient from "@/assets/site-portrait.jpg";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-
+import ContactForm from "@/components/ContactForm";
+import CollapsibleText from "@/components/CollapsibleText";
 const Index = () => {
   return (
     <main>
@@ -14,7 +15,7 @@ const Index = () => {
         path="/"
       />
 
-      <section className="ambient-gradient">
+      <section id="start" className="ambient-gradient">
         <div className="container grid gap-8 py-14 md:grid-cols-2 md:py-20">
           <div className="flex flex-col justify-center">
             <h1 className="mb-4 text-4xl font-bold tracking-tight md:text-5xl">Einfühlsame Psychotherapie für Ihre seelische Gesundheit</h1>
@@ -23,10 +24,10 @@ const Index = () => {
             </p>
             <div className="flex gap-3">
               <Button asChild>
-                <Link to="/kontakt">Termin anfragen</Link>
+                <Link to="/#kontakt">Termin anfragen</Link>
               </Button>
               <Button asChild variant="secondary">
-                <Link to="/leistungen">Leistungen</Link>
+                <Link to="/#leistungen">Leistungen</Link>
               </Button>
             </div>
           </div>
@@ -36,7 +37,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section>
+      <section id="leistungen">
         <div className="container py-14 md:py-20">
           <h2 className="mb-8 text-center text-3xl font-semibold md:text-4xl">Wobei ich Sie unterstützen kann</h2>
           <div className="grid gap-6 md:grid-cols-3">
@@ -58,7 +59,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="border-y bg-secondary/40">
+      <section id="praxis" className="border-y bg-secondary/40">
         <div className="container grid items-center gap-8 py-14 md:grid-cols-2 md:py-20">
           <div>
             <h2 className="mb-4 text-3xl font-semibold md:text-4xl">Ein sicherer Ort für Ihre Themen</h2>
@@ -72,6 +73,40 @@ const Index = () => {
         </div>
       </section>
 
+      <section id="ueber-mich">
+        <div className="container py-14 md:py-20">
+          <h2 className="mb-6 text-3xl font-semibold md:text-4xl">Über mich</h2>
+          <CollapsibleText collapsedHeight={8}>
+            <p className="text-muted-foreground">
+              Als approbierte Psychotherapeutin arbeite ich mit einem integrativen, transparenten Ansatz. Wichtig ist mir eine vertrauensvolle Zusammenarbeit auf Augenhöhe.
+            </p>
+            <p className="mt-4 text-muted-foreground">
+              Fortbildungen und Supervision sind fester Bestandteil meiner Arbeit – so bleiben Methoden aktuell und wirksam.
+            </p>
+          </CollapsibleText>
+        </div>
+      </section>
+
+      <section id="kontakt" className="border-t">
+        <div className="container grid gap-8 py-14 md:grid-cols-2 md:py-20">
+          <div>
+            <h2 className="mb-3 text-3xl font-semibold md:text-4xl">Kontakt</h2>
+            <p className="mb-6 max-w-prose text-muted-foreground">
+              Schreiben Sie mir Ihr Anliegen und Ihre Terminwünsche. Ich melde mich zeitnah bei Ihnen zurück. Alternativ können Sie mir direkt per E‑Mail an
+              {" "}
+              <a className="underline" href="mailto:schaller-praxis@t-online.de">schaller-praxis@t-online.de</a>
+              {" "}schreiben.
+            </p>
+            <p className="text-sm text-muted-foreground">
+              Mit Absenden des Formulars stimmen Sie der Verarbeitung Ihrer Angaben gemäß Datenschutz zu.
+            </p>
+          </div>
+          <div>
+            <ContactForm />
+          </div>
+        </div>
+      </section>
+
       <section>
         <div className="container py-14 text-center md:py-20">
           <h2 className="mb-3 text-3xl font-semibold md:text-4xl">Bereit für den ersten Schritt?</h2>
@@ -79,7 +114,7 @@ const Index = () => {
             Schreiben Sie mir Ihr Anliegen und Ihre Terminwünsche. Ich melde mich zeitnah bei Ihnen zurück.
           </p>
           <Button asChild size="lg">
-            <Link to="/kontakt">Kontakt aufnehmen</Link>
+            <Link to="/#kontakt">Kontakt aufnehmen</Link>
           </Button>
         </div>
       </section>
