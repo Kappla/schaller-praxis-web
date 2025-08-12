@@ -6,11 +6,12 @@ export default function Footer() {
       <div className="container grid gap-8 py-10 md:grid-cols-3">
         <div>
           <h3 className="mb-2 text-base font-semibold">Praxis für Psychotherapie Schaller</h3>
-          <p className="text-sm text-muted-foreground">Einfühlsame Unterstützung bei psychischen Herausforderungen – vertraulich und auf Augenhöhe.</p>
+          
         </div>
         <div className="text-sm">
           <h4 className="mb-2 font-medium">Kontakt</h4>
           <address className="not-italic text-muted-foreground">
+            <div>Johanna Schaller</div>
             E-Mail: <a className="underline hover:no-underline" href="mailto:schaller-praxis@t-online.de">schaller-praxis@t-online.de</a>
           </address>
         </div>
