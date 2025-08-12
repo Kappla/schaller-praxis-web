@@ -12,7 +12,7 @@ export default function ContactForm() {
     const data = new FormData(e.currentTarget);
     const name = (data.get("name") as string) || "";
     const phone = (data.get("phone") as string) || "";
-    const subject = (data.get("subject") as string) || "Kontaktanfrage via Webseite";
+    const subject = "Kontaktanfrage via Webseite";
     const message = (data.get("message") as string) || "";
 
     const body = `Name: ${name}%0D%0ATelefon: ${phone}%0D%0A%0D%0ANachricht:%0D%0A${encodeURIComponent(message)}`;
@@ -30,10 +30,6 @@ export default function ContactForm() {
         <div>
           <label htmlFor="phone" className="mb-1 block text-sm font-medium">Telefon (optional)</label>
           <Input id="phone" name="phone" type="tel" />
-        </div>
-        <div>
-          <label htmlFor="subject" className="mb-1 block text-sm font-medium">Betreff</label>
-          <Input id="subject" name="subject" defaultValue="Kontaktanfrage via Webseite" />
         </div>
       </div>
       <div>
