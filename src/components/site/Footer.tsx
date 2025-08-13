@@ -12,6 +12,7 @@ export default function Footer() {
           <h4 className="mb-2 font-medium">Kontakt</h4>
           <address className="not-italic text-muted-foreground">
             <div>Johanna Schaller</div>
+            <div>Konradinstr. 5, 81543 München</div>
             E-Mail: <a className="underline hover:no-underline" href="mailto:schaller-praxis@t-online.de">schaller-praxis@t-online.de</a>
           </address>
         </div>

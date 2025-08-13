@@ -43,7 +43,7 @@ const Index = () => {
         <div className="container py-14 md:py-20">
           <h2 id="welcome-title" className="mb-6 text-3xl font-semibold md:text-4xl">Herzlich Willkommen!</h2>
           <p className="text-muted-foreground leading-relaxed">
-            In meiner Praxis im Münchner Westend/Schwanthalerhöhe biete ich psychoanalytische und tiefenpsychologisch fundierte Psychotherapie für privat Versicherte und Selbstzahler*innen oder für Gesetzlich Versicherte im Kostenerstattungsverfahren an. Als approbierte Psychologische Psychotherapeutin behandle ich Erwachsene jeden Alters mit verschiedenen psychischen Beschwerden. Gerne begleite ich Sie in belastenden Lebensphasen und unterstütze Sie dabei, einen passenden Weg aus schwierigen Situationen zu finden. Im Folgenden finde Sie wesentliche Informationen zum Therapieangebot, dem Ablauf und zu meiner Person.
+            In meiner Praxis in München Untergiesing biete ich psychoanalytische und tiefenpsychologisch fundierte Psychotherapie für privat Versicherte und Selbstzahler*innen oder für Gesetzlich Versicherte im Kostenerstattungsverfahren an. Als approbierte Psychologische Psychotherapeutin behandle ich Erwachsene jeden Alters mit verschiedenen psychischen Beschwerden. Gerne begleite ich Sie in belastenden Lebensphasen und unterstütze Sie dabei, einen passenden Weg aus schwierigen Situationen zu finden. Im Folgenden finde Sie wesentliche Informationen zum Therapieangebot, dem Ablauf und zu meiner Person.
           </p>
         </div>
       </section>
@@ -194,19 +194,19 @@ const Index = () => {
           <div>
             <h2 className="mb-4 text-3xl font-semibold md:text-4xl">Praxis & Anfahrt</h2>
             <p className="text-muted-foreground leading-relaxed">
-              Die Praxis liegt im Münchner Westend/Schwanthalerhöhe und ist am besten mit öffentlichen Verkehrsmitteln zu erreichen. Die Räumlichkeiten befinden sich im Hochparterre und sind nicht barrierefrei zugänglich.
+              Die Praxis liegt in München Untergiesing und ist am besten mit öffentlichen Verkehrsmitteln zu erreichen. Die Räumlichkeiten befinden sich im Hochparterre und sind nicht barrierefrei zugänglich.
             </p>
             <div className="mt-6 overflow-hidden rounded-lg border">
               <iframe
-                title="Karte: Schrenkstr. 7, 80339 München"
-                src="https://www.google.com/maps?q=Schrenkstr.+7,+80339+M%C3%BCnchen&hl=de&z=16&output=embed"
+                title="Karte: Konradinstr. 5, 81543 München"
+                src="https://www.google.com/maps?q=Konradinstr.+5,+81543+M%C3%BCnchen&hl=de&z=16&output=embed"
                 className="h-[380px] w-full"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 allowFullScreen
               />
             </div>
-            <p className="mt-2 text-sm text-foreground">Adresse: Schrenkstr. 7, 80339 München</p>
+            <p className="mt-2 text-sm text-foreground">Adresse: Konradinstr. 5, 81543 München</p>
           </div>
         </div>
       </section>
@@ -221,8 +221,8 @@ const Index = () => {
             <div className="space-y-2 text-muted-foreground">
               <p><strong>Telefon:</strong> <a className="underline" href="tel:015205396561">0152 05396561</a></p>
               <p><strong>E‑Mail:</strong> <a className="underline" href="mailto:schaller-praxis@t-online.de">schaller-praxis@t-online.de</a></p>
-              <p><strong>Adresse:</strong> Schrenkstr. 7, 80339 München</p>
-              <p className="text-sm">Die Praxis liegt im Münchner Westend/Schwanthalerhöhe. Die Räumlichkeiten befinden sich im Hochparterre und sind nicht barrierefrei.</p>
+              <p><strong>Adresse:</strong> Konradinstr. 5, 81543 München</p>
+              <p className="text-sm">Die Praxis liegt in München Untergiesing. Die Räumlichkeiten befinden sich im Hochparterre und sind nicht barrierefrei.</p>
             </div>
             <p className="mt-4 text-xs text-muted-foreground">
               Mit Absenden des Formulars stimmen Sie der Verarbeitung Ihrer Angaben gemäß Datenschutz zu.
