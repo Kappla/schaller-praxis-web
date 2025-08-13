@@ -13,7 +13,8 @@ export default function Impressum() {
         <div>
           <h2 className="text-xl font-semibold mb-3">Angaben gemäß § 5 TMG</h2>
           <div className="text-muted-foreground space-y-1">
-            <p>Johanna Schaller</p>
+            <p>Johanna Schaller (M.Sc.)</p>
+            <p>Psychologische Psychotherapeutin</p>
             <p>Konradinstr. 5</p>
             <p>81543 München</p>
           </div>
