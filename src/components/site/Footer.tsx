@@ -25,7 +25,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t py-4">
-        <div className="container text-center text-xs text-muted-foreground">© {new Date().getFullYear()} Schaller Psychotherapie. Alle Rechte vorbehalten.</div>
+        <div className="container text-center text-xs text-muted-foreground">© {new Date().getFullYear()} Johanna Schaller (schaller-psychotherapie.de). Alle Rechte vorbehalten.</div>
       </div>
     </footer>
   );
