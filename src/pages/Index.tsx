@@ -25,7 +25,7 @@ const Index = () => {
               <p className="mt-3 text-sm text-slate-50">Psychoanalyse und Tiefenpsychologisch fundierte Psychotherapie</p>
               <div className="mt-6 flex justify-center gap-3">
                 <Button asChild size="lg">
-                  <Link to="/#kontakt">Einen Termin vereinbaren</Link>
+                  <Link to="/#kontakt">Kontakt aufnehmen</Link>
                 </Button>
                 <Button asChild variant="secondary" size="lg">
                   <Link to="/#leistungen">Leistungen</Link>
