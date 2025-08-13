@@ -192,7 +192,7 @@ const Index = () => {
           <div>
             <h2 className="mb-4 text-3xl font-semibold md:text-4xl">Praxis & Anfahrt</h2>
             <p className="text-muted-foreground leading-relaxed">
-              Die Praxis liegt in München Untergiesing und ist am besten mit öffentlichen Verkehrsmitteln zu erreichen. Die Räumlichkeiten befinden sich im Hochparterre und sind nicht barrierefrei zugänglich.
+              Die Praxis liegt in München Untergiesing und ist am besten mit öffentlichen Verkehrsmitteln zu erreichen. Die Räumlichkeiten sind nicht barrierefrei zugänglich.
             </p>
             <div className="mt-6 overflow-hidden rounded-lg border">
               <iframe
@@ -220,7 +220,7 @@ const Index = () => {
               <p><strong>Telefon:</strong> <a className="underline" href="tel:015205396561">0152 05396561</a></p>
               <p><strong>E‑Mail:</strong> <a className="underline" href="mailto:schaller-praxis@t-online.de">schaller-praxis@t-online.de</a></p>
               <p><strong>Adresse:</strong> Konradinstr. 5, 81543 München</p>
-              <p className="text-sm">Die Praxis liegt in München Untergiesing. Die Räumlichkeiten befinden sich im Hochparterre und sind nicht barrierefrei.</p>
+              <p className="text-sm">Die Praxis liegt in München Untergiesing und ist nicht barrierefrei.</p>
             </div>
             <p className="mt-4 text-xs text-muted-foreground">
               Mit Absenden des Formulars stimmen Sie der Verarbeitung Ihrer Angaben gemäß Datenschutz zu.
