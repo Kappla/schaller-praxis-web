@@ -32,7 +32,7 @@ export default function AddressBanner() {
   }
 
   return (
-    <div className="sticky top-0 z-40 bg-primary/10 border-b border-primary/20 backdrop-blur-sm">
+    <div className="sticky top-16 z-30 bg-primary/10 border-b border-primary/20 backdrop-blur-sm">
       <div className="container flex items-center justify-between py-3 text-sm">
         <div className="flex-1 text-center">
           <p className="text-primary">
