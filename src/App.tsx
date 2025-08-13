@@ -6,6 +6,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
 import Navbar from "./components/site/Navbar";
+import AddressBanner from "./components/site/AddressBanner";
 import Footer from "./components/site/Footer";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
@@ -36,6 +37,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <Navbar />
+      <AddressBanner />
       <ScrollToHash />
       <Routes>
         <Route path="/" element={<Index />} />
