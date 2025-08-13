@@ -142,7 +142,8 @@ const Index = () => {
                     </div>
                     <div>
                       <h4 className="font-medium">Gesetzliche Krankenkasse</h4>
-                      <p>Da ich eine Privatpraxis führe, ist eine Abrechnung mit gesetzlichen Krankenkassen in der Regel nicht möglich.</p>
+                      <p>Da ich eine Privatpraxis führe, ist eine Abrechnung mit gesetzlichen Krankenkassen in der Regel nicht möglich. Gesetzlich Versicherte können die Therapie jedoch als Selbstzahler*innen in Anspruch nehmen.</p>
+                      <p>Als gesetzlich Versicherte*r haben Sie die Möglichkeit, die Behandlung privat zu finanzieren. Dies bietet Ihnen den Vorteil, dass keine Diagnose an die Krankenkasse übermittelt wird und Sie vollständige Kontrolle über Ihre Therapiedaten behalten. Die Abrechnung erfolgt transparent nach der Gebührenordnung für Psychotherapeuten (GOP).</p>
                     </div>
                     <div>
                       <h4 className="font-medium">Selbstzahler*innen</h4>
