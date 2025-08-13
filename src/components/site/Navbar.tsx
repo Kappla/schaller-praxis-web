@@ -43,7 +43,7 @@ export default function Navbar() {
         </div>
         <div className="flex items-center gap-2">
           <Button asChild className="hidden md:inline-flex">
-            <Link to="/#kontakt">Termin anfragen</Link>
+            <Link to="/#kontakt">Kontakt aufnehmen</Link>
           </Button>
         </div>
       </nav>
