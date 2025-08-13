@@ -43,7 +43,7 @@ const Index = () => {
         <div className="container py-14 md:py-20">
           <h2 id="welcome-title" className="mb-6 text-3xl font-semibold md:text-4xl">Herzlich Willkommen!</h2>
           <p className="text-muted-foreground leading-relaxed">
-            In meiner Praxis in München Untergiesing biete ich psychoanalytische und tiefenpsychologisch fundierte Psychotherapie für privat Versicherte und Selbstzahler*innen an. Als approbierte Psychologische Psychotherapeutin behandle ich Erwachsene jeden Alters mit verschiedenen psychischen Beschwerden. Gerne begleite ich Sie in belastenden Lebensphasen und unterstütze Sie dabei, einen passenden Weg aus schwierigen Situationen zu finden. Im Folgenden finde Sie wesentliche Informationen zum Therapieangebot, dem Ablauf und zu meiner Person.
+            In meiner Praxis in München Untergiesing biete ich psychoanalytische und tiefenpsychologisch fundierte Psychotherapie für privat sowie gesetzlich Versicherte und Selbstzahler*innen an. Als approbierte Psychologische Psychotherapeutin behandle ich Erwachsene jeden Alters mit verschiedenen psychischen Beschwerden. Gerne begleite ich Sie in belastenden Lebensphasen und unterstütze Sie dabei, einen passenden Weg aus schwierigen Situationen zu finden. Im Folgenden finde Sie wesentliche Informationen zum Therapieangebot, dem Ablauf und zu meiner Person.
           </p>
         </div>
       </section>
