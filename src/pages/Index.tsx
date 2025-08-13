@@ -214,7 +214,7 @@ const Index = () => {
           <div>
             <h2 className="mb-3 text-3xl font-semibold md:text-4xl">Kontakt</h2>
             <p className="mb-6 max-w-prose text-muted-foreground">
-              Schreiben Sie mir Ihr Anliegen und Ihre Terminwünsche. Ich melde mich zeitnah bei Ihnen zurück.
+              Schreiben Sie mir Ihr Anliegen. Ich melde mich zeitnah bei Ihnen zurück.
             </p>
             <div className="space-y-2 text-muted-foreground">
               <p><strong>Telefon:</strong> <a className="underline" href="tel:015205396561">0152 05396561</a></p>
