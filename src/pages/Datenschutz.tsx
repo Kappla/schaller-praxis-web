@@ -37,6 +37,30 @@ export default function Datenschutz() {
           erforderlich sind, sofern keine gesetzlichen Aufbewahrungspflichten bestehen.
         </p>
 
+        <h2 className="text-xl font-semibold">Cookies und lokale Speicherung</h2>
+        <p className="text-muted-foreground">
+          Diese Website verwendet technisch notwendige Cookies und lokale Speicherung (localStorage) 
+          für folgende Zwecke:
+        </p>
+        <ul className="list-disc pl-6 text-muted-foreground">
+          <li>Speicherung der Sidebar-Einstellungen (Cookie: sidebar:state, 7 Tage)</li>
+          <li>Merken, ob Hinweise bereits ausgeblendet wurden (localStorage)</li>
+        </ul>
+        <p className="text-muted-foreground">
+          Diese Cookies sind für die Funktionalität der Website erforderlich und werden ohne 
+          Ihre gesonderte Einwilligung gesetzt (Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO).
+        </p>
+
+        <h2 className="text-xl font-semibold">Google Maps</h2>
+        <p className="text-muted-foreground">
+          Zur Darstellung der Praxisadresse nutzen wir Google Maps. Beim Laden der Karte 
+          können Cookies von Google gesetzt und Ihre IP-Adresse an Google übertragen werden. 
+          Weitere Informationen finden Sie in der 
+          <a href="https://policies.google.com/privacy" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
+            Datenschutzerklärung von Google
+          </a>.
+        </p>
+
         <h2 className="text-xl font-semibold">Ihre Rechte</h2>
         <p className="text-muted-foreground">
           Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der
