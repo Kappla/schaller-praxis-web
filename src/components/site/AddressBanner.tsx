@@ -13,9 +13,9 @@ export default function AddressBanner() {
       return;
     }
 
-    // Check if current date is before September 1, 2025
+    // Check if current date is before September 19, 2025
     const currentDate = new Date();
-    const switchDate = new Date('2025-09-01');
+    const switchDate = new Date('2025-09-19');
     
     if (currentDate < switchDate) {
       setIsVisible(true);
@@ -37,7 +37,7 @@ export default function AddressBanner() {
         <div className="flex-1 text-center">
           <p className="text-primary">
             <strong>Hinweis:</strong> Diese Webseite zeigt bereits die neue Praxisadresse (Konradinstr. 5, 81543 München), 
-            gültig ab 01. September 2025. Bis dahin gilt weiterhin: Schrenkstr. 7, 80339 München.
+            gültig ab 19. September 2025. Bis dahin gilt weiterhin: Schrenkstr. 7, 80339 München.
           </p>
         </div>
         <button
