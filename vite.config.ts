@@ -11,6 +11,9 @@ export default defineConfig(({ mode }) => ({
     assetsDir: "assets",
     sourcemap: false,
     minify: "esbuild",
+    rollupOptions: {
+      input: "index.html"
+    }
   },
   server: {
     host: "::",
