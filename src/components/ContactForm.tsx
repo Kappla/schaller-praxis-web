@@ -15,9 +15,19 @@ export default function ContactForm() {
     const subject = "Webseite-Anfrage";
     const message = (data.get("message") as string) || "";
 
-    const plainBody = `Name: ${name}\r\nTelefon: ${phone}\r\n\r\nNachricht:\r\n${message}`;
-    const params = new URLSearchParams({ subject, body: plainBody });
-    const mailto = `mailto:schaller-praxis@t-online.de?${params.toString()}`;
+    // Build email body with proper formatting, excluding empty values
+    let bodyParts = [`Name: ${name}`];
+    if (phone.trim()) {
+      bodyParts.push(`Telefon: ${phone}`);
+    }
+    bodyParts.push("", "Nachricht:", message);
+    
+    const plainBody = bodyParts.join("\r\n");
+    
+    // Manually encode to avoid + symbols for spaces
+    const encodedSubject = encodeURIComponent(subject);
+    const encodedBody = encodeURIComponent(plainBody);
+    const mailto = `mailto:schaller-praxis@t-online.de?subject=${encodedSubject}&body=${encodedBody}`;
     window.location.href = mailto;
   };
 
