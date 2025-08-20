@@ -181,8 +181,8 @@ const Index = () => {
               <li>Psychotherapeutenkammer Bayern (PTK)</li>
             </ul>
           </div>
-          <div className="overflow-hidden rounded-lg border h-96">
-            <img src={ambient} alt="Portrait von Johanna Schaller, Psychotherapeutin in München" className="h-full w-full object-cover" loading="lazy" />
+          <div className="overflow-hidden rounded-lg border h-[576px]">
+            <img src={ambient} alt="Portrait von Johanna Schaller, Psychotherapeutin in München" className="h-full w-full object-cover object-top" loading="lazy" />
           </div>
         </div>
       </section>
