@@ -160,7 +160,7 @@ const Index = () => {
       <section id="ueber-mich" className="scroll-mt-24 md:scroll-mt-28">
           <div className="container grid items-start gap-8 py-14 
                   md:[grid-template-columns:1.6fr_1fr] md:py-20">
-            <div>
+            <div className="pr-8">
               <h2 className="mb-6 text-3xl font-semibold md:text-4xl">Über mich</h2>
             <h3 className="text-xl font-semibold">Qualifikation</h3>
             <ul className="mt-2 list-disc pl-5 text-muted-foreground">
