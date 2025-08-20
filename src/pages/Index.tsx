@@ -182,7 +182,7 @@ const Index = () => {
             </ul>
           </div>
           <div className="overflow-hidden rounded-lg border">
-            <img src={ambient} alt="Portrait von Johanna Schaller, Psychotherapeutin in München" className="w-half object-cover object-[center_25%]" style={{ height: 'fit-content' }} loading="lazy" />        
+            <img src={ambient} alt="Portrait von Johanna Schaller, Psychotherapeutin in München" className="w-full object-cover object-[center_25%]" style={{ height: 'fit-content' }} loading="lazy" />        
           </div>
         </div>
       </section>
