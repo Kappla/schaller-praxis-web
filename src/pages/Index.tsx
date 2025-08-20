@@ -158,7 +158,8 @@ const Index = () => {
       </section>
 
       <section id="ueber-mich" className="scroll-mt-24 md:scroll-mt-28">
-          <div className="container grid items-start gap-8 py-14 md:grid-cols-2 md:py-20">
+          <div className="container grid items-start gap-8 py-14 
+                  md:[grid-template-columns:1.6fr_1fr] md:py-20">
             <div>
               <h2 className="mb-6 text-3xl font-semibold md:text-4xl">Über mich</h2>
             <h3 className="text-xl font-semibold">Qualifikation</h3>
@@ -182,7 +183,7 @@ const Index = () => {
             </ul>
           </div>
           <div className="overflow-hidden rounded-lg border">
-            <img src={ambient} alt="Portrait von Johanna Schaller, Psychotherapeutin in München" className="w-full scale-90 object-cover object-[center_25%]" style={{ height: 'fit-content' }} loading="lazy" />        
+            <img src={ambient} alt="Portrait von Johanna Schaller, Psychotherapeutin in München" className="w-full object-cover object-[center_25%]" style={{ height: 'fit-content' }} loading="lazy" />        
           </div>
         </div>
       </section>
