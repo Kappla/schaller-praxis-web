@@ -6,7 +6,7 @@ interface SEOProps {
   path?: string;
 }
 
-const SITE_URL = "https://www.schaller-psychotherapie.de";
+const SITE_URL = "https://schaller-psychotherapie.de";
 
 export function SEO({ title, description, path = "/" }: SEOProps) {
   const url = `${SITE_URL}${path}`;
@@ -42,8 +42,11 @@ export function SEO({ title, description, path = "/" }: SEOProps) {
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={url} />
+      <meta property="og:image" content={`${SITE_URL}/og-image.png`} />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={`${SITE_URL}/og-image.png`} />
       <script type="application/ld+json">{JSON.stringify(jsonLdOrg)}</script>
       <script type="application/ld+json">{JSON.stringify(jsonLdSite)}</script>
       <script type="application/ld+json">{JSON.stringify(jsonLdPage)}</script>
