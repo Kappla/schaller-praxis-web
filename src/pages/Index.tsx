@@ -23,7 +23,7 @@ const Index = () => {
                 <span className="block text-slate-50">Johanna Schaller</span>
               </h1>
               <p className="mt-3 text-sm text-slate-50">Psychoanalyse und Tiefenpsychologisch fundierte Psychotherapie</p>
-              <div className="mt-6 flex justify-center gap-3">
+              <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
                 <Button asChild size="lg">
                   <Link to="/#kontakt">Kontakt aufnehmen</Link>
                 </Button>
@@ -31,6 +31,9 @@ const Index = () => {
                   <Link to="/#leistungen">Leistungen</Link>
                 </Button>
               </div>
+              <p className="mx-auto mt-4 inline-block rounded-full border bg-secondary/60 px-4 py-1 text-xs text-foreground/80">
+                Derzeit keine Neuaufnahme möglich
+              </p>
             </div>
           </div>
         </div>
