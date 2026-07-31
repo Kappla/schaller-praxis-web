@@ -31,9 +31,6 @@ const Index = () => {
                   <Link to="/#leistungen">Leistungen</Link>
                 </Button>
               </div>
-              <p className="mx-auto mt-4 inline-block rounded-full border bg-secondary/60 px-4 py-1 text-xs text-foreground/80">
-                Aktuell keine Neuaufnahmen möglich – ausschließlich Sprechstunden!
-              </p>
             </div>
           </div>
         </div>
